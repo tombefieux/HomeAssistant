@@ -1,0 +1,59 @@
+{
+    "colorsList": [
+        {
+            "label": "red",
+            "value": [
+                255,
+                0,
+                0
+            ]
+        },
+        {
+            "label": "green",
+            "value": [
+                0,
+                255,
+                0
+            ]
+        },
+        {
+            "label": "blue",
+            "value": [
+                0,
+                0,
+                255
+            ]
+        }
+    ],
+    "LEDStrips": [
+        {
+            "id": 0,
+            "label": "bed"
+        },
+        {
+            "id": 1,
+            "label": "desktop"
+        }
+    ],
+    "lightSets": [
+        {
+            "label": "coolMood",
+            "LEDStripIDs": [
+                0,
+                1
+            ],
+            "colors": [
+                [
+                    255,
+                    255,
+                    255
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        }
+    ]
+}
